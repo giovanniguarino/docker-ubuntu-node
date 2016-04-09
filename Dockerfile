@@ -10,7 +10,7 @@ RUN rm /bin/sh && ln -s /bin/bash /bin/sh
 
 # Install dependencies
 RUN apt-get update && \
-apt-get install -y curl xz-utils
+apt-get install -y curl xz-utils git
 
 
 # gpg keys listed at https://github.com/nodejs/node
